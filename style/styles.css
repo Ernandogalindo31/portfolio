@@ -102,11 +102,10 @@ body {
     text-decoration: none;
     color: var(--cor-secundaria);
     font-family: 'Montserrat', sans serif;
-    border: 2px solid var(--cor-terciaria);
-
+    border: 2px solid var(--cor-terciaria)
 }
 
-.apresentacao__links__link:hover {
+.apresentacao__links__navegacao:hover {
     background-color: var(--cor-hover);
     padding: 5%;
 }
@@ -130,7 +129,16 @@ body {
     font-weight: 400;
 }
 
-@media (max-width:1200px) {
+@media screen and (max-width:1200px) {
+
+    .apresentacao__imagem {
+        width: 445.71px;
+        height: 502.34px;
+        top: 287px;
+        left: 139px;
+        border-radius: 16px;
+
+    }
 
     .cabecalho {
         padding: 10%;
